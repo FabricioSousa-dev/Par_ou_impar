@@ -5,9 +5,9 @@ while True:
     print("JOGO DA ADIVINHAÇÃO")
     print("=="*30)
     n = int(input("Digite um numero: "))
-    pi = input("Impat ou par[i/p] ").upper().strip()[0]
     if n < 0:
         break
+    pi = input("Impat ou par[i/p] ").upper().strip()[0]
 
     while pi not in "IP":
         print("Valor digitado inválido!")
